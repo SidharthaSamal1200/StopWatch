@@ -32,7 +32,7 @@ body{
     padding: 5px auto;
     border-radius: 20px;
     background-color: purple;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/background.png); An image is set alongwith the linear gradient
+    background: linear-gradient(rgba(37, 29, 29, 0.158), rgba(14, 14, 14, 0.8)), url(images/background2.jpg); An image is set alongwith the linear gradient
     background-size: cover; /* background image will be set as cover */
     background-position: center; /* position of the background image */
     text-align: center;
