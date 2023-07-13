@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-/* Background color of the web page */
+
 body{
     background-color: #edeaff;
 }
@@ -20,11 +20,11 @@ body{
     font-weight: bold;
 }
 
-/* Styling of the container which contains the Stopwatch */
+
 .container{
     height: 60vh;
     width: 60vw;
-    position: absolute; /* position of the container */
+    position: absolute; 
     top: 15%;
     left: 20%;
     margin-top: 30px;
@@ -32,14 +32,14 @@ body{
     padding: 5px auto;
     border-radius: 20px;
     background-color: purple;
-    background: linear-gradient(rgba(37, 29, 29, 0.158), rgba(14, 14, 14, 0.8)), url(images/background2.jpg); An image is set alongwith the linear gradient
-    background-size: cover; /* background image will be set as cover */
-    background-position: center; /* position of the background image */
+    background: linear-gradient(rgba(37, 29, 29, 0.158), rgba(14, 14, 14, 0.8)), url(images/background2.jpg); 
+    background-size: cover; 
+    background-position: center; 
     text-align: center;
     box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
-/* This styling is for the timer */
+
 .container h1{
     font-family: 'Roboto Mono', monospace;
     color: #fff;
@@ -48,27 +48,27 @@ body{
     margin: 100px auto;
 }
 
-/* Styling for the various buttons */
+
 .buttons{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Setting the width and margin of the buttons */
+
 .buttons img{
     width: 60px;
     cursor: pointer;
     margin: 0 20px;
 }
 
-/* On hover box-shadow will appear */
+
 .buttons img:hover{
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     border-radius: 50%;
 }
 
-/* Increasing the width of Play button to differentiate it with others */
+
 .buttons img:nth-child(2){
     width: 80px;
 }
